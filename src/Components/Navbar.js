@@ -57,11 +57,11 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-links-container">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Menu</a>
-        <a href="">Contact</a>
-        <a href="">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Menu</a>
+        <a href="#">Contact</a>
+        <a href="#">
           <BsCart2 className="navbar-cart-icon" />
         </a>
         <button className="primary-button">Make a Reservation</button>
@@ -92,7 +92,7 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
 
 
 

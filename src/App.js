@@ -1,10 +1,10 @@
 import './App.css';
-import Home from './Components/Home'
-import About from './Components/About';
-import Work from './Components/Work';
-import Testimonials from './Components/Menu';
-import Contact from './Components/Contact';
-import Footer from './Components/Footer';
+import Home from './components/Home';
+import About from './components/About';
+import Work from './components/Work';
+import Testimonials from './components/Menu';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() { 
   return (
