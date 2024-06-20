@@ -19,10 +19,10 @@ const About = () => {
                 Food Is An Important Part Of A Balanced Diet
             </h1>
             <p classNmae="primary-text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae aperiam adipisci dolore, tempora tenetur error laborum velit quasi assumenda ipsa soluta placeat incidunt.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae aperiam adipisci dolore, a tempora tenetur error laborum velit quasi assumenda ipsa soluta placeat incidunt.
             </p>
             <p classNmae="primary-text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae aperiam adipisci dolore, tempora tenetur error laborum velit quasi assumenda ipsa soluta placeat incidunt.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae aperiam adipisci dolore, a tempora tenetur error laborum velit quasi assumenda ipsa soluta placeat incidunt.
             </p>
             <div className="about-buttons-container">
                     <button className="secondary-button">Learn More</button>
