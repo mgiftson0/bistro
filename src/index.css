@@ -1,7 +1,3 @@
-body {
-  font-family: "Reem Kufi", sans-serif !important;
-}
-
-code {
+body, * {
   font-family: "Reem Kufi", sans-serif !important;
 }

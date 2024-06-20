@@ -53,7 +53,8 @@ const Navbar = () => {
     <nav>
 
       <div className="nav-logo-container">
-        <img src={Logo} alt="" />
+      <h5 id="bistro-title-1"><em>Bistro de <b id='half'>Lumiere</b></em></h5>
+
       </div>
 
       <div className="navbar-links-container">

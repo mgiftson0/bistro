@@ -8,9 +8,10 @@ import { FaInstagram } from 'react-icons/fa';
 const Footer = () => {
   return (
     <div className='footer-wrapper'>
+        <br></br>
       <div className="footer-section-one">
         <div className="footer-logo-container">
-            <img src={Logo} alt="" />
+           <h5 id='bistro-title'>Bistro de Lumiere</h5>
         </div>
         <div className="footer-icons">
             <BsTwitter />
