@@ -31,16 +31,16 @@ const Work = () => {
             </p>
         </div>
         <div className="work-section-bottom">
-            {workInfoData.map((data) => (
-                <div className="work-section-info">
-                    <div className="info-boxes-img-container">
-                        <img src={data.image} alt="" />
-                    </div>
-                    <h2>{data.title}</h2>
-                    <p>{data.text}</p>
-                </div>
-            ))}
+    {workInfoData.map((data, index) => (
+        <div className="work-section-info" key={index}>
+            <div className="info-boxes-img-container">
+                <img src={data.image} alt="" />
+            </div>
+            <h2>{data.title}</h2>
+            <p>{data.text}</p>
         </div>
+    ))}
+</div>
     </div>
   )
 }

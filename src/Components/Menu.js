@@ -3,7 +3,7 @@ import ProfilePic from "../Assets/john-doe-image.png";
 import { AiFillStar } from "react-icons/ai";
 
 
-const Testimonials = () => {
+const Menu = () => {
   return (
     <div className='work-section-wrapper'>
         <div className='work-section-top'>
@@ -25,7 +25,7 @@ const Testimonials = () => {
                 <AiFillStar></AiFillStar>
                 <AiFillStar></AiFillStar>
             </div>
-            <h2>John Doe</h2>
+            <h2>kwame</h2>
         </div>
         <div className="testimonial-section-bottom">
             <img src={ProfilePic} alt="" />
@@ -39,7 +39,7 @@ const Testimonials = () => {
                 <AiFillStar></AiFillStar>
                 <AiFillStar></AiFillStar>
             </div>
-            <h2>John Doe</h2>
+            <h2>kwame</h2>
         </div>
         
     </div>
@@ -47,4 +47,4 @@ const Testimonials = () => {
 }
 
 
-export default Testimonials;
+export default Menu;

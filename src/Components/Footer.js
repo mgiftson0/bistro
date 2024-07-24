@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../Assets/Logo.svg';
+// import Logo from '../Assets/Logo.svg';
 import {BsTwitter} from 'react-icons/bs';
 import {SiLinkedin} from 'react-icons/si';
 import { BsYoutube } from 'react-icons/bs';
@@ -39,6 +39,7 @@ const Footer = () => {
             <span>Terms & Conditions</span>
             <span>Privacy Policy</span>
             <span>Copyright@Bistro 2024</span>
+            <a href="https://sabali-mu.vercel.app/">sabali</a>
         </div>
       </div>
     </div>

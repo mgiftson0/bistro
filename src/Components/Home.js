@@ -1,5 +1,10 @@
 import React from 'react'
 import Navbar from './Navbar'
+import About from '../components/About';
+import Work from '../components/Work';
+import Menu from '../components/Menu';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 import BannerBackground from '../Assets/home-banner-background.png';
 import BannerImage from '../Assets/home-banner-image.png';
 import { FiArrowRight } from 'react-icons/fi';
@@ -29,6 +34,11 @@ const Home = () => {
           <img src={BannerImage} alt="" />
         </div>
       </div>
+      <About />
+      <Work />
+      <Menu />
+      <Contact />
+      <Footer />
     </div>
   )
 }
